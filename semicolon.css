@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    margin: 20px;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+
+}
+.wrapper span{
+    margin: 20px;
+}
+
+.logo{
+    margin: 30px;
+    padding: 20px;
+    position: 20px;
+}
+.Join{
+    border: solid red;
+    color: red;
+    background: white;
+    border-radius: 500px;
+    text-align: center;
+    opacity: 40;
+    padding: 10px;
+    font-size: 90;
+    font-weight: bold;
+    
+}
+.vision{
+    color: rgb(4, 43, 116);
+    margin: 100px;
+    position: 20px;
+    font-size: 25px;
+    height: 20px;
+
+    padding: 10px;
+    nav-left: 33;
+}
+.text{
+    font-size: 15px;
+}
+/* .gif{
+    margin: 0px;
+    padding: 20px;
+    right: 0;    
+    position: absolute;
+} */
+
+.container{
+    display: flex;
+    padding: 50px;
+    margin: 40px;
+    left: 0;
+    position: absolute;
+}
+.Indi{
+    border: solid red;
+    color: red;
+    background: white;
+    border-radius: 500px;
+    text-align: center;
+    opacity: 40;
+    padding: 10px;
+    font-size: 90;
+    font-weight: bold;
+}
+
+.Busi{
+    border: solid red;
+    color: red;
+    background: white;
+    border-radius: 500px;
+    text-align: center;
+    opacity: 40;
+    padding: 10px;
+    font-size: 90;
+    font-weight: bold;
+    
+}
+.headword{
+    display: flex;
+    padding-left: ;
+    
+}

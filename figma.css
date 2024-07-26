@@ -1,0 +1,379 @@
+.generalbox{
+ width: 1600px;
+height: 4900px;
+border: 1px solid #2995E2;
+    
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.helpeveryone{
+    position: relative;
+    right: 5px;
+    font-size: larger;
+    color: #50a8e8
+}
+.subpart{
+    position: relative;
+
+    left: 100px;
+}
+.service{
+    color: #000;
+}
+
+.donate{
+    color:#000;
+}
+.whoweare{
+    color: #000;
+}
+
+.sign{
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+.joinus{
+    color:#000;
+}
+.blog{
+    color: #000;
+}
+.signup{
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+  position: relative;
+  
+    
+}
+
+.help{
+    color: #50a8e8;
+}
+
+.betterlife{
+    color: #50a8e8;
+}
+
+.sub{
+font-family: Cairo;
+font-size: 30px;
+font-weight: 700;
+line-height: 93px;
+text-align: left;
+margin-top: 100px;
+weight: 700;
+}
+
+.wehelp{
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.image{
+    position: relative;
+    padding-left: 600px; 
+    right: 250px;
+}
+.blueWord{
+    color: blue;
+}
+
+.held{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: fit-content;
+    padding: 100px; 
+    gap: 5px;
+
+}
+
+.getstarted{
+    padding: 30px;
+    margin: left;
+}
+
+.hold{
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+
+}
+
+.about{
+    text-align: center;
+    padding: 40px;
+         
+}
+
+.sun{
+    display: flex;
+    margin: auto;
+    width: 28%;
+
+}
+
+.tent{
+    right: 250px;
+    
+}
+.holdservices{
+    position: relative;
+    bottom: 300px;
+}
+.services{
+    position: relative;
+    top: 300px;
+    left: 100px;
+    padding: 100px;
+   
+}
+.guardian{
+    padding: 100px;
+    left: 200px;
+   
+}
+.our{
+    color: #50a8e8;
+}
+
+.holdguard{
+     display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: fit-content;
+      padding: 100px; 
+     gap: 200px;
+     
+     
+}
+
+.holdhelp{
+    padding: 100px;
+    left: 50px;
+}
+
+.helping{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: fit-content;
+    padding: 100px;
+    gap: 200px;
+    position: relative;
+    bottom: 400px;
+    left: 50px;
+
+}
+
+.walkman{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: fit-content;
+    padding: 100px;
+    gap: 200px;
+    position: relative;
+    bottom: 400px;
+}
+.walker{
+    padding: 100px;
+    left: 50px;
+}
+
+.box{
+ background: #2995E2;
+    padding 50px;
+    margin: 20px;
+    width: 1148px;
+    height: 323px;
+    top: 2790px;
+    border: 12px;
+}
+
+.holdbox{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: fit-content;
+    padding: 100px;
+    gap: 200px;
+    position: relative;
+    bottom: 400px;
+}
+.boxx{
+background-color: white;
+width: 150px;
+height: 60px;
+/* font-size:xx-small; */
+/* font-family:cursive; */
+/* border: 1px solid black; */
+/* position: relative;
+bottom: 400px; */
+}
+.underbox{
+
+width: 150px;
+height: 60px;
+}
+.house{
+    position: relative;
+    bottom: -50px;
+    left: 100px;
+}
+.special{
+    position: relative;
+    top: -250px;
+    left: 660px;
+}
+.doyou{
+    color: white;
+    font-family: cairo;
+}
+.get{
+    position: relative;
+    bottom: -20px;
+    left: 20px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: small;
+    font-family: Geneva;
+}
+.boxxx{
+    position: relative;
+    margin: auto;
+    width: fit-content;
+    padding: 100px;   
+/* left: 200px; */
+right: 50px;
+width: 1150px;
+height: 500px;
+
+border: 1px;
+gap: 10px;
+border: 1px solid #2995E2;
+bottom: 400px;
+}
+.firstnamebox{
+    width: 500px;
+    height: 65px;
+    border: 1px solid black;
+
+}
+.emailbox{
+    width: 500px;
+    height: 65px;
+    border: 1px solid black;
+
+}
+.firstnameholder{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.emailholder{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.holdnamemail{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.formrequest{
+    position: relative;
+    left: 20px
+}
+
+.mail{
+    position: relative;
+    top: -40px;
+    left: 20px;
+}
+.statebox{
+    width: 500px;
+    height: 65px;
+    border: 1px solid black;
+}
+.stateholder{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.state{
+    position: relative;
+    top: -40px;
+    left: 20px;
+}
+.industrybox{
+    width: 500px;
+    height: 65px;
+    border: 1px solid black;
+}
+.industryholder{
+       position: relative;
+        left: 20px;
+        top: 20px;
+}
+.holdstateindustry{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.industry{
+    position: relative;
+    top: -40px;
+    left: 20px;
+}
+.submit{
+    position: relative;
+    width: 500px;
+    height: 65px;
+    border: 1px solid black;
+    background-color: #2995E2;
+    top: 100px;
+    left: 300px;
+    border: white;
+}
+.submite{
+    position: relative;
+    left: 510px;
+    top: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.helper{
+    position: relative;
+    top: 250px;
+    left: 120px;
+    color: #2995E2;
+    
+}
+.helpevery{
+    position: relative;
+    top: 250px;
+    left: 100px;
+    font-family: Helvetica;
+    font-size: larger;
+}
+
+.bluehelp{
+    color: #2995E2;
+}
+.bluebetter{
+    color: #2995E2;
+}
+
+.helped{
+    position: relative;
+    bottom: 500px;
+    right: 10px;
+}
