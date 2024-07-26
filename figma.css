@@ -353,7 +353,7 @@ bottom: 400px;
 .helper{
     position: relative;
     top: 250px;
-    left: 120px;
+    left: 100px;
     color: #2995E2;
     
 }
@@ -361,8 +361,10 @@ bottom: 400px;
     position: relative;
     top: 250px;
     left: 100px;
-    font-family: Helvetica;
-    font-size: larger;
+    font-family: Cairo;
+    font-style: bold;
+    font-size: x-large;
+    line-height: 40px;
 }
 
 .bluehelp{
@@ -376,4 +378,44 @@ bottom: 400px;
     position: relative;
     bottom: 500px;
     right: 10px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: auto;
+    
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    position: relative;
+    bottom: 260px;
+    left: 600px;
+    line-height: 50px;
+    font-family: Tahoma;
+    font-size: large;
+}
+.emoji{
+    color: #2995E2;
+}
+.copyright{
+    position: relative;
+    bottom: 230px;
+    left: 100px;
+    font-family: Tahoma;
+    font-size: medium;
+   
+}
+.cookies{
+    position: relative;
+    bottom: 260px;
+    left: 1200px;
+    font-family: Tahoma;
+    font-size: medium;
+   
+}
+.accept{
+    color: #2995E2;
 }
