@@ -1,0 +1,378 @@
+
+
+.contain{
+  height: 100%;
+  overflow-y: scroll;
+  color: #0b3452;
+}
+
+  
+
+  ::-webkit-scrollbar {
+    display: none;
+  } */
+.tags{
+    position: relative;
+    right: -580px;
+
+   
+}
+.semicolonlogo{
+    position: relative;
+    bottom: -15px;
+    left: 20px;
+    
+}
+.overview{
+    display: flex;
+    flex-direction: row;
+   /* padding: 10px; */
+    bottom: 10px;
+   position: sticky;
+
+}
+.tags span {
+    display: inline-block;
+    margin: 0 20px; 
+  }
+  
+  
+    #button {
+        border: 2px;
+        background-color: white;
+        text-align: center;
+        text-decoration: red;
+        font-size: 12px;
+        font-size: medium;
+        color: rgb(238, 10, 10);
+        font-family: Arial;
+        width: 180px;
+        height: 40px;
+        margin: 10px 20px;
+        border-style: ridge;
+        border-radius: 10px; 
+    border-color: red;
+  }
+
+  #individualbutton{
+    border: 2px;
+        text-align: center;
+        text-decoration: red;
+        font-size: 12px;
+        font-size: medium;
+        color: white;
+        font-family: Tahoma;
+        width: 180px;
+        height: 40px;
+        margin: 10px 20px;
+        background-color: red; 
+        border-radius: 10px; 
+    border-color: red;
+    
+  }
+#businessbutton{
+        border: 2px;
+        text-align: center;
+        text-decoration: red;
+        font-size: 12px;
+        font-size: medium;
+        color:rgb(238, 10, 10);
+        font-family: Tahoma;
+        width: 180px;
+        height: 40px;
+        margin: 10px 20px;
+        border-style: ridge;
+        border-radius: 10px; 
+    border-color: red;
+    background-color: white;
+}
+
+.buttons{  
+    position: relative;
+    right: 20px;
+    
+   
+}
+
+.accelerator{
+    position: relative;
+    bottom: -155px;
+    left: 40px;
+}
+.holdwebaccelerate{
+    display: flex;
+    flex-direction: row;
+    
+}
+.web{
+    position: relative;
+    left:130px;
+    bottom: 10px;
+  max-width: 100%;
+   
+}
+.accelerateafrica{
+    font-family:Tahoma;
+    font-size: large;
+    color: #0c5186;
+    position: relative;
+    top: 20px;
+    
+}
+
+.empower{
+    font-family:Tahoma;
+    color: #0b3452;
+}
+.we{
+    color: red;
+}
+.whatwedo{
+    position: relative;
+    top: 60px;
+    left: 200px;
+    font-family: Tahoma;
+    
+
+}
+.wehelpindividuals{
+    width: 500px;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    position: relative;
+    top: 40px;
+    left: 200px;
+    background-color: red;
+    border-color: red;
+}
+.wehelpindividuals::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-width: thick;
+    border: 100px white;
+    border-radius: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+transform: translate(-40%, -50%); 
+}
+.wesupportbusinesses{
+    width: 500px;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    position: relative;
+    top: -290px;
+    left: 780px;
+    background-color: red;
+    border-color: red;
+
+}
+.wesupportbusinesses::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px solid red;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+transform: translate(-50%, -50%); 
+}
+.wehelp{
+    position: relative;
+    top: 120px;
+    left: 20px;
+    font-family:serif;
+    color: white;
+    line-height: 30px;
+    font-size: x-small;
+    font-weight: normal;
+}
+.indi{
+    font-size: 40px;
+}
+.wesupport{
+    position: relative;
+    top: 120px;
+    left: 20px;
+    font-family:serif;
+    color: white;
+    line-height: 30px;
+    font-size: x-small;
+    font-weight: normal;
+}
+.bus{
+    font-size: 40px;
+}
+.wedoit{
+    position: relative;
+    top: 350px;
+    right: 580px;
+    font-family: Cambria;
+    
+}
+.scrollable-container {
+    position: relative;
+    right: 480px; 
+     height: 200px;
+    overflow-y: hidden;
+  }
+  
+  .custom-scrollbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #f0f0f0;
+  }
+  
+  .scrollbar-thumb {
+    /* ... */
+  }
+  #training{
+    position: relative;
+    bottom: 212px;
+    left: 25px;
+    color: #0c5186;
+    font-family: Cambria;
+    font-weight: normal;
+    margin: 0px;
+     padding: 13px 13px 13px 0%;
+      font-size: 17px; 
+      font-weight: 600;
+       border: 0px; 
+    background-color: transparent; 
+    cursor: pointer;
+  }
+  #trainingtalents{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 300px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    left: 625px;
+    
+  }
+  .technologytraining{
+    width: 500px;
+    height: 120px;
+    position: relative;
+   border-bottom-left-radius: 5%;
+   border-bottom-right-radius: 5%;
+    top: -323px;
+    left: 624.5px;
+    background-color: red;
+    line-height: 15px;
+  }
+  .techtraining{
+    display: block;
+ }
+  .tech{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color: white;
+    font-size: large;
+  }
+  .soughtafter{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color: white;
+    font-size: small;
+   
+  }
+  .learnmore{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    color: white;
+  }
+  #talent{
+    position: relative;
+    bottom: 777.5px;
+    left: 25px;
+    color: #0c5186;
+    font-family: Cambria;
+    font-weight: normal;
+    margin: 0px; 
+    padding: 13px 13px 13px 0%; 
+    font-size: 17px; 
+    font-weight: 600;
+      border: 0px; 
+      background-color: transparent;
+       cursor: pointer;
+  }
+  #employee{
+    position: relative;
+    bottom: -28px;
+    left: 226px;
+    color: #0c5186;
+    font-family: Cambria;
+    font-weight: normal;
+    margin: 0px;
+     padding: 13px 13px 13px 0%;
+      font-size: 17px; 
+      font-weight: 600;
+        border: 0px; 
+        background-color: transparent; 
+        cursor: pointer;
+  }
+  #project{
+    position: relative;
+    bottom: -27.5px;
+    left: 226px;
+    color: #0c5186;
+    font-family: Cambria;
+    font-weight: normal;
+    margin: 0px;
+     padding: 13px 13px 13px 0%;
+      font-size: 17px;
+       font-weight: 600; 
+        border: 0px;
+         background-color: transparent;
+          cursor: pointer;
+  }
+  #venture{
+    position: relative;
+    bottom: -22px;
+    left: 226px;
+    color: #0c5186;
+    font-family: Cambria;
+    font-weight: normal;
+    margin: 0px;
+  padding: 13px 13px 13px 0%;
+      font-size: 17px; 
+      font-weight: 600;
+    border: 0px; 
+            background-color: transparent; 
+    cursor: pointer;
+  }
+  .talentp{
+    width: 500px;
+    height: 120px;
+    position: relative;
+   border-bottom-left-radius: 5%;
+   border-bottom-right-radius: 5%;
+    left: 624.5px;
+    background-color: rgb(10, 110, 204);
+    line-height: 15px;
+  }
+  .dot {
+    height: 400px;
+    width: 400px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }

@@ -1,91 +1,1059 @@
-*{
-    padding: 0;
-    margin: 0;
+.contain{
+  height: 100%;
+  overflow-y: scroll;
+}
+  ::-webkit-scrollbar {
+    display: none;
+  }
+.tags{
+    position: relative;
+    right: -580px;
+}
+.semicolonlogo{
+    position: relative;
+    bottom: -15px;
+    left: 90px;
+    
+}
+.individualss{
+  font-family: Arial;
+  font-size: 16px;
+  color:#095792;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  right: 65px;
+
+ 
+}
+.businesses{
+  font-family: Arial;
+  font-size: 16px;
+  color:#095792;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  right: 20px;
+  
+}
+.aboutus{
+  font-family: Arial;
+  font-size: 16px;
+  color:#095792;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  left: 25px;
+}
+.careers{
+  font-family: Arial;
+  font-size: 16px;
+  color:#095792;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  left: 70px;
+}
+.blog{
+  font-family: Arial;
+  font-size: 16px;
+  color:#095792;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  left: 105px;
+}
+.overview{
+    display: flex;
+    flex-direction: row;
+   /* padding: 10px; */
+    bottom: 10px;
+  position: sticky;
+
+}
+.tags {
+    display: inline-block;
+    margin: 0 20px; /* Adjust the margin value as needed */
+  
+  }
+  
+  
+    #button {
+        border: 2px;
+        background-color: white;
+        text-align: center;
+        text-decoration: red;
+        font-size: 12px;
+        font-size: medium;
+        color: rgb(238, 10, 10);
+        font-family: Arial;
+        position: relative;
+        left: 150px;
+        width: 180px;
+        height: 40px;
+        margin: 10px 20px;
+        border-style: ridge;
+        border-radius: 10px; 
+    border-color: red;
+  }
+.ind{
+  position: relative;
+  top: 10px;
+  left: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  border-radius: 10px;
+}
+.biz{
+  position: relative;
+  top: -40px;
+  left: 250px;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px ;
+  border: 2px solid red;
+}
+ .individualbutton{
+  
+        text-decoration: red;
+        font-size: 12px;
+        position: relative;
+        top: 14px;
+        left: 39px;
+        font-size: medium;
+        color: white;
+        font-family: Tahoma;
+       
+        
+    cursor: pointer;
+  }
+ 
+.businessbutton{
+        text-decoration: red;
+        font-size: 12px;
+        font-size: medium;
+        color:rgb(238, 10, 10);
+        font-family: Tahoma;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    left: 45px;
 }
 
-.wrapper{
-    margin: 20px;
-    padding: 20px;
+.buttons{  
+    position: relative;
+    right: 20px;
+    
+   
+}
+
+.accelerator{
+    position: relative;
+    bottom: -155px;
+    left: 40px;
+}
+.holdwebaccelerate{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 50px;
+}
+.web{
+    position: relative;
+    left:130px;
+    bottom: 10px;
+  max-width: 100%;
+   
+}
+.accelerateafrica{
+    font-family:Tahoma;
+    font-size: x-large;
+    color:#095792;
+    position: relative;
+    top: 20px;
+    
+}
+
+.empower{
+    font-family:Tahoma;
+    color: #0b3452;
+}
+.we{
+    color: red;
+}
+.whatwedo{
+    position: relative;
+    top: 60px;
+    left: 200px;
+    font-family: Tahoma;
+    
+
+}
+.wehelpindividuals{
+    width: 500px;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    position: relative;
+    top: 40px;
+    left: 200px;
+    background-color: red;
+    border-color: red;
+}
+.wehelpindividuals::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-width: thick;
+    border: 100px white;
+    border-radius: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    border: 5px solid white;
+transform: translate(-40%, -50%); 
+}
+.wesupportbusinesses{
+    width: 500px;
+    height: 330px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    position: relative;
+    top: -290px;
+    left: 780px;
+    background-color: red;
+    border-color: red;
+
+}
+.wesupportbusinesses::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 5px solid red;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    border: 5px solid white;
+transform: translate(-50%, -50%); 
+}
+.wehelp{
+    position: relative;
+    top: 120px;
+    left: 20px;
+    font-family:serif;
+    color: white;
+    line-height: 30px;
+    font-size: x-small;
+    font-weight: normal;
+}
+.indi{
+    font-size: 40px;
+}
+.wesupport{
+    position: relative;
+    top: 120px;
+    left: 20px;
+    font-family:serif;
+    color: white;
+    line-height: 30px;
+    font-size: x-small;
+    font-weight: normal;
+}
+.bus{
+    font-size: 40px;
+}
+.wedoit{
+    position: relative;
+    top: 350px;
+    right: 580px;
+    font-family: Cambria;
+    
+}
+.scrollable-container {
+    position: relative;
+    right: 480px; 
+     height: 200px;
+    overflow-y: hidden;
+  }
+  
+  .custom-scrollbar {
     position: absolute;
     right: 0;
     top: 0;
-   
-
-}
-.wrapper span{
-    margin: 20px;
-}
-
-.logo{
-    margin: 30px;
-    padding: 20px;
-    position: 20px;
-}
-.Join{
-    border: solid red;
-    color: red;
-    background: white;
-    border-radius: 500px;
-    text-align: center;
-    opacity: 40;
-    padding: 10px;
-    font-size: 90;
-    font-weight: bold;
-    
-}
-.vision{
-    color: rgb(4, 43, 116);
-    margin: 100px;
-    position: 20px;
-    font-size: 25px;
-    height: 20px;
-
-    padding: 10px;
-    nav-left: 33;
-}
-.text{
-    font-size: 15px;
-}
-/* .gif{
+    width: 5px;
+    height: 100%;
+    background-color: #f0f0f0;
+  }
+  
+  .scrollbar-thumb {
+    /* ... */
+  }
+  #training{
+    position: relative;
+    bottom: 212px;
+    left: 25px;
+    color: #0c5186;
+    font-family: Cambria;
+    font-weight: normal;
     margin: 0px;
-    padding: 20px;
-    right: 0;    
-    position: absolute;
-} */
-
-.container{
-    display: flex;
-    padding: 50px;
-    margin: 40px;
-    left: 0;
-    position: absolute;
-}
-.Indi{
-    border: solid red;
-    color: red;
-    background: white;
-    border-radius: 500px;
-    text-align: center;
-    opacity: 40;
-    padding: 10px;
-    font-size: 90;
-    font-weight: bold;
-}
-
-.Busi{
-    border: solid red;
-    color: red;
-    background: white;
-    border-radius: 500px;
-    text-align: center;
-    opacity: 40;
-    padding: 10px;
-    font-size: 90;
-    font-weight: bold;
+     padding: 13px 13px 13px 0%;
+      font-size: 17px; 
+      font-weight: 600;
+       border: 0px; 
+    background-color: transparent; 
+    cursor: pointer;
+  }
+  #trainingtalents{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 300px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    left: 625px;
     
+  }
+  .technologytraining{
+    width: 500px;
+    height: 120px;
+    position: relative;
+   border-bottom-left-radius: 5%;
+   border-bottom-right-radius: 5%;
+    top: -323px;
+    left: 624.5px;
+    background-color: red;
+    line-height: 15px;
+  }
+  .techtraining{
+    display: block;
+ }
+  .tech{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color: white;
+    font-size: large;
+  }
+  .soughtafter{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color: white;
+    font-size: small;
+   
+  }
+  .learnmore{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    color: white;
+  }
+  #talent{
+    position: relative;
+    bottom: 777.5px;
+    left: 25px;
+    color: #0c5186;
+    font-family: Cambria;
+    font-weight: normal;
+    margin: 0px; 
+    padding: 13px 13px 13px 0%; 
+    font-size: 17px; 
+    font-weight: 600;
+      border: 0px; 
+      background-color: transparent;
+       cursor: pointer;
+  }
+  #employee{
+    position: relative;
+    bottom: -28px;
+    left: 226px;
+    color: #0c5186;
+    font-family: Cambria;
+    font-weight: normal;
+    margin: 0px;
+     padding: 13px 13px 13px 0%;
+      font-size: 17px; 
+      font-weight: 600;
+        border: 0px; 
+        background-color: transparent; 
+        cursor: pointer;
+  }
+  #project{
+    position: relative;
+    bottom: -27.5px;
+    left: 226px;
+    color: #0c5186;
+    font-family: Cambria;
+    font-weight: normal;
+    margin: 0px;
+     padding: 13px 13px 13px 0%;
+      font-size: 17px;
+       font-weight: 600; 
+        border: 0px;
+         background-color: transparent;
+          cursor: pointer;
+  }
+  #venture{
+    position: relative;
+    bottom: -22px;
+    left: 226px;
+    color: #0c5186;
+    font-family: Cambria;
+    font-weight: normal;
+    margin: 0px;
+     padding: 13px 13px 13px 0%;
+      font-size: 17px; 
+      font-weight: 600;
+       border: 0px; 
+       background-color: transparent; 
+       cursor: pointer;
+  }
+  .talentp{
+    width: 500px;
+    height: 120px;
+    position: relative;
+   border-bottom-left-radius: 5%;
+   border-bottom-right-radius: 5%;
+    left: 624.5px;
+    background-color: rgb(10, 110, 204);
+    line-height: 15px;
+  }
+  .circle::before{
+    content: '';
+    width: 250px;
+    height: 250px;
+    background-color: rgb(192, 203, 211);
+    border-width: thick;
+    border-radius: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1650px;
+    left: 8%;
+transform: translate(-40%, -50%); 
 }
-.headword{
-    display: flex;
-    padding-left: ;
-    
+.dot{
+  height: 290px;
+  width: 290px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  
 }
+.squared{
+  height: 735px;
+  width: 2000px;
+  background-color:aliceblue;
+  position: relative;
+  top: 350px;
+}
+.enumlogo{
+  position: relative;
+  left: 670px;
+  top: -285px;
+}
+.studentpress{
+  position: relative;
+  top: 80px;
+}
+.studentwatch{
+  position: relative;
+  top: 80px;
+}
+.videocalls{
+  position: relative;
+  top: 120px;
+  
+}
+.learn{
+  position: relative;
+  top: 100px;
+  left: 550px;
+  font-family: Tahoma;
+  font-size: 27px;
+  color:rgb(77, 89, 102);
+}
+.oneplace{
+  color:dodgerblue;
+}
+.platform{
+  position: relative;
+  top: 90px;
+  left: 450px;
+  font-family: Arial;
+  font-weight: 10;
+  color:slategray;
+  line-height: 25px;
+}
+.enumafrica{
+  height: 40px;
+  width: 180px;
+  background-color:dodgerblue;;
+  position: relative;
+  top: 70px;
+  left: 650px;
+  border-radius: 7px;
+}
+
+.enumlink{
+  position: relative;
+  top: 12px;
+  left: 50px;
+  font-family: Arial;
+  font-size: 16px;
+
+  color:white;
+  cursor: pointer;
+ 
+}
+.monetise{
+  margin-left: 120px;
+}
+.enumlink:hover{
+  transform: translateX(5px);
+  transition: transform 0.5s ease-in-out;
+}
+.global{
+  position: relative;
+  top: 200px;
+  left: 15px;
+  font-family: Arial;
+  color:#0c5186;
+  position: relative;
+  left: 550px;
+  font-size: 30px;
+}
+.us{
+  color:red;
+}
+.huawei{
+  position: relative;
+  top: 250px;
+  left: 200px;
+}
+.interswitch{
+  position: relative;
+  top: 250px;
+  left: 270px;
+}
+.branch{
+  position: relative;
+  top: 245px;
+  left: 340px
+}
+.cowrywise{
+  position: relative;
+  top: 245px;
+  left: 410px;
+}
+.moniepoint{
+  position: relative;
+  top: 245px;
+  left: 480px;
+}
+.acrobat{
+  position: relative;
+  top: 250px;
+  left: 550px;
+}
+.sterling{
+  position: relative;
+  top: 370px;
+  right: 600px;
+}
+.flutterwave{
+  position: relative;
+  top: 370px;
+  right: 530px;
+}
+.oldmutual{
+  position: relative;
+  top: 370px;
+  right: 460px;
+}
+.egymwell{
+  position: relative;
+  top: 370px;
+  right: 390px;
+}
+.kpmg{
+  position: relative;
+  top: 370px;
+  right: 320px;
+}
+.ihs{
+  position: relative;
+  top: 370px;
+  right: 250px;
+}
+.fcmb{
+   position: relative;
+  top: 550px;
+  right: 1470px;
+}
+.fsi{
+  position: relative;
+  top: 550px;
+  right: 1400px;
+}
+.liberty{
+  position: relative;
+  top: 550px;
+  right: 1330px;
+}
+.uba{
+  position: relative;
+  top: 440px;
+  left: 640px;
+}
+.airtel{
+  position: relative;
+  top: 440px;
+  left: 710px;
+}
+.united{
+  position: relative;
+  top: 440px;
+  left: 780px;
+}
+.eat{
+  position: relative;
+  top: 445px;
+  left: 850px;
+}
+.wema{
+  position: relative;
+  top: 450px;
+  left: 920px;
+}
+.redsquare{
+  height: 320px;
+  width: 2300px;
+  background-color:red;
+  position: relative;
+  top: 550px;
+  right: 50px;
+}
+.line{
+  height: 220px;
+  width: 2px;
+  background-color: white;
+  position: relative;
+  top: 70px;
+  left: 240px;
+}
+#dancingText{
+  position: relative;
+  bottom: 80px;
+  left: 270px;
+  font-family: Arial;
+  color: white;
+  font-size: 12px;
+}
+.emailbox{
+  height: 300px;
+  width: 800px;
+  background-color:wheat;
+  position: relative;
+  top: 650px;
+  left: 350px;
+  border: 1px solid red;
+  border-radius: 30px;
+
+ 
+}
+.hear{
+  position: relative;
+ top: 40px;
+ left: 150px;
+  font-family: Arial;
+  color: red;
+  font-size: 35px;
+
+}
+.insights{
+  position: relative;
+  top: 30px;
+  left: 120px;
+  font-family: Arial;
+  color: white;
+  font-size: 15px;
+  color:dimgrey;
+  line-height: 22px;
+}
+.updates{
+  margin-left: 73px;
+}
+
+.subscribebox{
+  position: relative;
+  width: 220px;
+  height: 60px;
+  background-color:red;
+  top: -104px;
+  left: 535px;
+  border-radius: 10px;
+}
+.subscribebutton{
+  position: relative;
+  width: 150px;
+  height: 40px;
+  top: 10px;
+  left: 35px;
+  background-color: red;
+  border-radius: 10px;
+  border: 1px solid white;
+
+}
+.subscribe{
+  font-family: Arial;
+  color: white;
+  font-size: 8px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.entername{
+ position: relative;
+ top: 20px;
+ left: 15px; 
+  font-family: Arial;
+  color:#bbb;
+  font-size: 16px; 
+}
+.enteremail{
+  position: relative;
+  top: 20px;
+  left: 15px; 
+   font-family: Arial;
+   color:#bbb;
+   font-size: 16px;
+}
+.inputname{
+  position: relative;
+  top: 39px;
+  left: 48px;
+  width: 220px;
+  height: 56px;
+ border-radius: 10px;
+ border: 2px solid white;
+ border: 2px white;
+
+}
+.inputemail{
+  position: relative;
+  top: -33px;
+  left: 290px;
+  width: 220px;
+  height: 52px;
+  border-color: red;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.nameerror{
+  position: relative;
+  top: 43px;
+  left: 52px;
+  color: red;
+  font-family: Arial;
+  font-size: small;
+}
+.emailerror{
+  position: relative;
+  top: -27px;
+  left: 295px;
+  color: red;
+  font-family: Arial;
+  font-size: small;
+
+}
+::placeholder{
+  position: relative;
+  left: 10px;
+ 
+ font-weight: lighter;
+  
+}
+.forbusinesses{
+  position: relative;
+  top: 50px;
+  right: 200px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: large;
+  color:#0c5186;
+
+}
+.businesslink{
+  position: relative;
+  top: 50px;
+  right: 203px;
+  font-family: Arial;
+  color: #0c5186;
+  text-decoration: none;
+}
+.businesslink:hover{
+  color: red;
+}
+.corporatetraining{
+  position: relative;
+  top: 90px;
+  right: 340px;
+  font-family: Arial;
+  color: #0c5186;
+  text-decoration: none;
+}
+.corporatetraining:hover{
+  color: red;
+}
+.projectimp{
+  position: relative;
+  top: 130px;
+  right: 477px;
+  font-family: Arial;
+  color: #0c5186;
+  text-decoration: none;
+}
+.projectimp:hover{
+  color: red;
+}
+.projectadvisory{
+  position: relative;
+  top: 170px;
+  right: 644px;
+  font-family: Arial;
+  color: #0c5186;
+  text-decoration: none;
+}
+.projectadvisory:hover{
+  color: red;
+}
+.followus{
+  position: relative;
+  top: 180px;
+  right: 205px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: large;
+  color:#0c5186;
+}
+.facebook{
+  position: relative;
+  top: 180px;
+  right: 205px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: large;
+  color:#0c5186;
+}
+.facebook:hover{
+    border: 1px solid white;
+    transform: translate(5px, 5px);
+    transition: all 0.2s ease-in-out;
+  }
+  .twitter{
+  position: relative;
+  top: 181px;
+  right: 180px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: large;
+  color:#0c5186;
+  }
+  .twitter:hover{
+    border: 1px solid white;
+    transform: translate(5px, 5px);
+    transition: all 0.2s ease-in-out;
+  }
+  .instagram{
+    position: relative;
+    top: 181px;
+    right: 155px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: large;
+    color:#0c5186;
+  }
+  .instagram:hover{
+    border: 1px solid white;
+    transform: translate(5px, 5px);
+    transition: all 0.2s ease-in-out;
+  }
+  .youtube{
+    position: relative;
+    top: 181px;
+    right: 125px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: large;
+    color:#0c5186;
+  }
+  .youtube:hover{
+    border: 1px solid white;
+    transform: translate(5px, 5px);
+    transition: all 0.2s ease-in-out;
+  }
+  .medium{
+    position: relative;
+    top: 181px;
+    right: 95px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: large;
+    color:#0c5186;
+  }
+  .medium:hover{
+    border: 1px solid white;
+    transform: translate(5px, 5px);
+    transition: all 0.2s ease-in-out;
+  }
+  .tiktok{
+    position: relative;
+    top: 178px;
+    right: 65px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: large;
+    color:#0c5186;
+  }
+  .tiktok:hover{
+    border: 1px solid white;
+    transform: translate(5px, 5px);
+    transition: all 0.2s ease-in-out;
+  }
+  .forindividuals{
+    position: relative;
+  top: -109px;
+  left: 200px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: large;
+  color:#0c5186;
+  }
+  .techs{
+    position: relative;
+    top: -108px;
+    left: 198px;
+    font-family: Arial;
+    color: #0c5186;
+    text-decoration: none;
+    font-size: medium;
+  }
+  .techs:hover{
+    color: red;
+  }
+  .data{
+    position: relative;
+    top: -70px;
+    right: -10px;
+    font-family: Arial;
+    color: #0c5186;
+    text-decoration: none;
+    font-size: medium;
+  }
+  .data:hover{
+    color: red;
+  }
+  .aboutuss{
+    position: relative;
+    top: -185px;
+    left: 480px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: large;
+    color:#0c5186;
+  }
+  .careerss{
+    position: relative;
+    top: -185px;
+    left: 480px;
+    font-family: Arial;
+    text-decoration: none;
+    color: #0c5186;
+  }
+  .careerss:hover{
+    color: red;
+  }
+  .stories{
+    position: relative;
+    top: -149px;
+    left: 420px;
+    font-family: Arial;
+    text-decoration: none;
+    color: #0c5186;
+  }
+  .stories:hover{
+    color: red;
+  }
+  .contactuss{
+    position: relative;
+    top: -267px;
+    left: 800px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: large;
+    color:#0c5186;
+  }
+  .address{
+    position: relative;
+    top: -275px;
+    left: 800px;
+    font-family: Arial;
+    color:#0c5186;
+    text-decoration: none;
+  }
+  .address:hover{
+    color: red;
+  }
+  .phone{
+    position: relative;
+    top: -235px;
+    left: 800px;
+    font-family: Arial;
+    color:#0c5186;
+    text-decoration: none;
+  }
+  .phone:hover{
+    color: red;
+  }
+  .mail{
+    position: relative;
+    top: -185px;
+    left: 670px;
+    font-family: Arial;
+    color:#0c5186;
+    text-decoration: none;
+  }
+  .mail:hover{
+    color: red;
+  }
+  .semishape{
+    position: relative;
+    top: 5px;
+    left: 680px;
+  }
+  .copyright{
+    position: relative;
+    top: 425px;
+    left: 70px;
+    font-family: Arial;
+    color:#0c5186;
+    text-decoration: none;
+  }
+  .love{
+    color: red;
+  }
+

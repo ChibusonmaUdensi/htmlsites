@@ -2,14 +2,13 @@
  width: 1600px;
 height: 4900px;
 border: 1px solid #2995E2;
-    
 }
-
 .head{
     display: flex;
     flex-direction: row;
     gap: 100px;
 }
+
 .helpeveryone{
     position: relative;
     right: 5px;
@@ -35,7 +34,7 @@ border: 1px solid #2995E2;
 .sign{
     position: relative;
     left: 20px;
-    top: 3px;
+    top: 4px;
 }
 .joinus{
     color:#000;
@@ -405,8 +404,7 @@ bottom: 400px;
     bottom: 230px;
     left: 100px;
     font-family: Tahoma;
-    font-size: medium;
-   
+    font-size: medium; 
 }
 .cookies{
     position: relative;
