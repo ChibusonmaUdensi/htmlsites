@@ -27,6 +27,11 @@
 
  
 }
+.individualss:hover{
+  border: 5px solid white;
+  transform: translate(5px, 5px);
+  transition: all 0.5s ease-in-out;
+}
 .businesses{
   font-family: Arial;
   font-size: 16px;
@@ -38,6 +43,11 @@
   right: 20px;
   
 }
+.businesses:hover{
+  border: 5px solid white;
+  transform: translate(5px, 5px);
+  transition: all 0.5s ease-in-out;
+}
 .aboutus{
   font-family: Arial;
   font-size: 16px;
@@ -47,6 +57,11 @@
   text-decoration: none;
   position: relative;
   left: 25px;
+}
+.aboutus:hover{
+  border: 5px solid white;
+  transform: translate(5px, 5px);
+  transition: all 0.5s ease-in-out;
 }
 .careers{
   font-family: Arial;
@@ -58,6 +73,11 @@
   position: relative;
   left: 70px;
 }
+.careers:hover{
+  border: 5px solid white;
+  transform: translate(5px, 5px);
+  transition: all 0.5s ease-in-out;
+}
 .blog{
   font-family: Arial;
   font-size: 16px;
@@ -67,6 +87,11 @@
   text-decoration: none;
   position: relative;
   left: 105px;
+}
+.blog:hover{
+  border: 5px solid white;
+  transform: translate(5px, 5px);
+  transition: all 0.5s ease-in-out;
 }
 .overview{
     display: flex;
@@ -514,17 +539,19 @@ transform: translate(-40%, -50%);
   left: 50px;
   font-family: Arial;
   font-size: 16px;
-
+  text-decoration: none;
   color:white;
   cursor: pointer;
+  /* transform:translate(5px, 5px);
+  transition: transform 0.05s ease-in-out; */
  
 }
 .monetise{
   margin-left: 120px;
 }
 .enumlink:hover{
-  transform: translateX(5px);
-  transition: transform 0.5s ease-in-out;
+  transform: translateX(5px, 5px);
+  transition: all 0.5s ease-in-out;
 }
 .global{
   position: relative;
@@ -1056,4 +1083,4 @@ transform: translate(-40%, -50%);
   .love{
     color: red;
   }
-
+  

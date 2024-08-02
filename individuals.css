@@ -1,0 +1,841 @@
+.contain{
+    height: 100%;
+    overflow-y: scroll;
+  }
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  .tags{
+      position: relative;
+      right: -580px;
+  }
+  .semicolonlogo{
+      position: relative;
+      bottom: -15px;
+      left: 90px;
+      
+  }
+  .individualss{
+    font-family: Arial;
+    font-size: 16px;
+    color:#095792;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    right: 65px;
+    top: 20px;
+  
+   
+  }
+  .individualss:hover{
+    border: 5px solid white;
+    transform: translate(5px, 5px);
+    transition: all 0.5s ease-in-out;
+  }
+  .businesses{
+    font-family: Arial;
+    font-size: 16px;
+    color:#095792;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    right: 20px;
+    top: 20px;
+    
+  }
+  .businesses:hover{
+    border: 5px solid white;
+    transform: translate(5px, 5px);
+    transition: all 0.5s ease-in-out;
+  }
+  .aboutus{
+    font-family: Arial;
+    font-size: 16px;
+    color:#095792;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    left: 25px;
+    top: 20px;
+  }
+  .aboutus:hover{
+    border: 5px solid white;
+    transform: translate(5px, 5px);
+    transition: all 0.5s ease-in-out;
+  }
+  .careers{
+    font-family: Arial;
+    font-size: 16px;
+    color:#095792;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    left: 70px;
+    top: 20px;
+  }
+  .careers:hover{
+    border: 5px solid white;
+    transform: translate(5px, 5px);
+    transition: all 0.5s ease-in-out;
+  }
+  .blog{
+    font-family: Arial;
+    font-size: 16px;
+    color:#095792;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    left: 105px;
+    top: 20px;
+  }
+  .blog:hover{
+    border: 5px solid white;
+    transform: translate(5px, 5px);
+    transition: all 0.5s ease-in-out;
+  }
+  .overview{
+      display: flex;
+      flex-direction: row;
+     /* padding: 10px; */
+      bottom: 10px;
+    position: sticky;
+  
+  }
+  .tags {
+      display: inline-block;
+      margin: 0 20px; /* Adjust the margin value as needed */
+    
+    }
+      
+    .native {
+        border: 2px;
+        background-color: white;
+        text-align: center;
+        text-decoration: red;
+        font-size: 12px;
+        font-size: medium;
+        color: rgb(238, 10, 10);
+        font-family: Arial;
+        position: relative;
+        left: 500px;
+        top: -20px;
+        width: 180px;
+        height: 40px;
+        margin: 10px 20px;
+        border-style: ridge;
+        border-radius: 10px; 
+    border-color: red;
+  }
+  .ind{
+    position: relative;
+    top: 10px;
+    left: 0px;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+  }
+  .becomeskilled{
+    font-family:Tahoma;
+    font-size: x-large;
+    color:#095792;
+    position: relative;
+    top: 20px;
+    
+}
+
+.skills{
+    font-family:Tahoma;
+    color: #0b3452;
+}
+.applybutton{
+  
+    text-decoration: red;
+    font-size: 12px;
+    position: relative;
+    top: 14px;
+    left: 53px;
+    font-size: medium;
+    color: white;
+    font-family: Tahoma;
+   
+    
+cursor: pointer;
+}
+.nativebutton{
+    text-decoration: red;
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    font-size: medium;
+    color: red;
+    font-family: Tahoma;
+cursor: pointer;
+}
+.accelerator{
+    position: relative;
+    bottom: -105px;
+    left: 80px;
+}
+.threemuskeeters{
+    position: relative;
+    left:700px;
+    bottom: 350px;
+    width: 70%;
+    height: 70%;
+}
+.whitebox{
+    position: relative;
+    left: 100px;
+    bottom: 350px;
+    width: 250px;
+    height: 70px;
+    background-color:ghostwhite;
+    border-radius: 10px;
+  
+}
+.whitebox::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color:bisque;
+    border-width: thick;
+    border: 100px ;
+    border-radius: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+   
+transform: translate(-40%, -50%); 
+}
+.employment{
+    position: relative;
+    top: 22px;
+    left: 28px;
+    
+}
+.greater{
+    position: relative;
+    top: -35px;
+    left: 80px;
+  font-family: Tahoma;
+  font-size:x-large;
+    color: chocolate;
+}
+.rate{
+    position: relative;
+    top: -10px;
+    font-size: small;
+
+}
+.white{
+    position: relative;
+    left: 450px;
+    bottom: 420px;
+    width: 250px;
+    height: 70px;
+    background-color:ghostwhite;
+    border-radius: 10px;
+}
+.white::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color:bisque;
+    border-width: thick;
+    border: 100px ;
+    border-radius: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+   
+transform: translate(-40%, -50%); 
+}
+.techcommunity{
+    position: relative;
+    left:27px;
+    bottom: -20px;
+    
+}
+.tech{
+    position: relative;
+    top: -35px;
+    left: 80px;
+  font-family: Tahoma;
+  font-size:x-large;
+    color: chocolate;
+}
+.comm{
+    position: relative;
+    top: -10px;
+    font-size: small;
+
+}
+.whiteboxx{
+    position: relative;
+    left: 800px;
+    bottom: 490px;
+    width: 250px;
+    height: 70px;
+    background-color:ghostwhite;
+    border-radius: 10px;
+}
+.whiteboxx::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color:bisque;
+    border-width: thick;
+    border: 100px ;
+    border-radius: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+   
+transform: translate(-40%, -50%); 
+}
+.hiring{
+    position: relative;
+    left:27px;
+    bottom: -23px;
+}
+.hiringdes{
+    position: relative;
+    top: -35px;
+    left: 80px;
+  font-family: Tahoma;
+  font-size:x-large;
+    color: chocolate;
+}
+.des{
+    position: relative;
+    top: -10px;
+    font-size: small;
+}
+.whitee{
+    position: relative;
+    left: 1140px;
+    bottom: 560px;
+    width: 250px;
+    height: 70px;
+    background-color:ghostwhite;
+    border-radius: 10px;
+}
+.whitee::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color:bisque;
+    border-width: thick;
+    border: 100px ;
+    border-radius: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+   
+transform: translate(-40%, -50%); 
+}
+.avg{
+    position: relative;
+    left:27px;
+    bottom: -22px;
+}
+.avgincome{
+    position: relative;
+    top: -35px;
+    left: 80px;
+  font-family: Tahoma;
+  font-size:x-large;
+    color: chocolate;
+  
+}
+.incomeincrease{
+    position: relative;
+    top: -10px;
+    font-size: small;
+}
+.partnership{
+    position: relative;
+    left:666px;
+    bottom: 473px;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.henley{
+    position: relative;
+    left: 656px;
+    bottom: 470px;
+}
+.rectangle{
+    position: relative;
+    right: 10px;
+    bottom: 400px;
+    width: 1500px;
+    height: 630px;
+    background-color:lavenderblush;  
+}
+.why{
+    position: relative;
+    left: 90px;
+    top: 80px;
+    font-family: Arial;
+    color: #0b3452;
+    font-size: 30px;
+}.semi{
+    color: red
+}
+.market{
+    position: relative;
+    left: 95px;
+    top: 80px;
+    width: 45px;
+    height: 45px;
+    background-color:lightpink;
+    border-radius: 10px;
+}
+.marketready{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 15px;
+}
+.ready{
+    position: relative;
+    top: 75px;
+    left: 95px;
+    font-family: Arial;
+    font-size: 20px;
+    color: red;
+}
+.curriculum{
+    position: relative;
+    top: 65px;
+    left: 95px;
+    font-family: Arial;
+    font-size: 17px;
+    color:darkslategrey;
+}
+.hands{
+    position: relative;
+    left: 584px;
+    top: -80px;
+    width: 45px;
+    height: 45px;
+    background-color:lightpink;
+    border-radius: 10px;
+}
+.handson{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 15px;
+}
+.on{
+    position: relative;
+    top: -90px;
+    left: 587px;
+    font-family: Arial;
+    font-size: 20px;
+    color: red;
+}
+.experience{
+    position: relative;
+    top: -100px;
+    left: 585px;
+    font-family: Arial;
+    font-size: 17px;
+    color:darkslategrey;
+}
+.flexible{
+    position: relative;
+    left: 1070px;
+    top: -224px;
+    width: 45px;
+    height: 45px;
+    background-color:lightpink;
+    border-radius: 10px;
+}
+.flex{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 15px;
+}
+.tuition{
+    position: relative;
+    top: -232px;
+    left: 1070px;
+    font-family: Arial;
+    font-size: 20px;
+    color: red;
+}
+.flexpay{
+    position: relative;
+    top: -242px;
+    left: 1068px;
+    font-family: Arial;
+    font-size: 17px;
+    color:darkslategrey;
+}
+.intern{
+    position: relative;
+    left: 90px;
+    top: -130px;
+    width: 45px;
+    height: 45px;
+    background-color:lightpink;
+    border-radius: 10px;
+}
+.ship{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 15px;
+}
+.job{
+    position: relative;
+    top: -137px;
+    left: 90px;
+    font-family: Arial;
+    font-size: 20px;
+    color: red;
+}
+.internship{
+    position: relative;
+    top: -147px;
+    left: 90px;
+    font-family: Arial;
+    font-size: 17px;
+    color:darkslategrey;
+}
+.enter{
+    position: relative;
+    left: 584px;
+    top: -280px;
+    width: 45px;
+    height: 45px;
+    background-color:lightpink;
+    border-radius: 10px;
+}
+.enterpreneur{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 15px;
+}
+.oppo{
+    position: relative;
+    top: -282px;
+    left: 580px;
+    font-family: Arial;
+    font-size: 20px;
+    color: red;
+}
+.opportunities{
+    position: relative;
+    top: -290px;
+    left: 580px;
+    font-family: Arial;
+    font-size: 17px;
+    color:darkslategrey;
+}
+.thrive{
+    position: relative;
+    left: 1074px;
+    top: -444px;
+    width: 45px;
+    height: 45px;
+    background-color:lightpink;
+    border-radius: 10px;
+}
+.thriving{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 15px;
+
+}
+.techthrive{
+    position: relative;
+    top: -447px;
+    left: 1073px;
+    font-family: Arial;
+    font-size: 20px;
+    color: red;
+}
+.community{
+    position: relative;
+    top: -457px;
+    left: 1075px;
+    font-family: Arial;
+    font-size: 17px;
+    color:darkslategrey;
+}
+#tecpreneur{
+    position: relative;
+    left: 100px;
+    top: -260px;
+    font-family: Arial;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#dataana{
+    position: relative;
+    left: 400px;
+    top: -322px;
+    font-family: Arial;
+    color: #0c5186;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+#summer{
+    position: relative;
+    left: 660px;
+    top: -387px;
+    font-family: Arial;
+    color: #0c5186;
+    font-size: 30px;
+    cursor: pointer;
+}
+.projectoverview{
+    position: relative;
+    top: -350px;
+    left: 105px;
+    font-family: Arial;
+    font-size: 20px;
+    color: #095792;
+}
+.course{
+    position: relative;
+    top: -350px;
+    left: 105px;
+    font-family: Arial;
+    font-size: 15px;
+    color:darkslategrey;
+    line-height: 25px;
+}
+.classschedules{
+    position: relative;
+    top: -350px;
+    left: 105px;
+    font-family: Arial;
+    font-size: 20px;
+    color: #095792;
+}
+.physical{
+    position: relative;
+    top: -350px;
+    left: 105px;
+    font-family: Arial;
+    font-size: 15px;
+    color:darkslategrey;
+    line-height: 25px;
+}
+.fees{
+    position: relative;
+    top: -350px;
+    left: 105px;
+    font-family: Arial;
+    font-size: 20px;
+    color: #095792;
+}
+.training{
+    position: relative;
+    top: -350px;
+    left: 105px;
+    font-family: Arial;
+    font-size: 15px;
+    color:darkslategrey;
+    line-height: 25px;
+}
+.applybox{
+    position: relative;
+    top: -325px;
+    left: 105px;
+    width: 565px;
+    height: 270px;
+    background-color: red;
+    border-radius: 10px;
+}
+.talentready{
+    position: relative;
+    top: 50px;
+    left: 60px;
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+}
+.digital{
+    position: relative;
+    top: 50px;
+    left: 60px;
+    font-family: Arial;
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+}
+.get{
+    position: relative;
+    top: 70px;
+    left: 60px;
+    width: 200px;
+    height: 50px;
+    background-color:white;
+    border-radius: 10px;
+  
+}
+.getstarted{
+    text-decoration: red;
+    font-size: 12px;
+    position: relative;
+    top: 14px;
+    left: 53px;
+    font-size: medium;
+    color:red;
+    font-family: Tahoma;
+    font-weight: bold;
+cursor: pointer;
+}
+.download{
+    position: relative;
+    top: 20px;
+    left: 280px;
+    width: 200px;
+    height: 50px;
+    background-color:red;
+    border-radius: 10px;
+}
+.downloadbrochure{
+    text-decoration: red;
+    font-size: 12px;
+    position: relative;
+    top: 14px;
+    left: 3px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    font-family: Tahoma;
+cursor: pointer;
+}
+.curriculumbox{
+    position: relative;
+    top: -1039px;
+    left: 705px;
+    width: 660px;
+    height: 712px;
+    background-color:wheat;
+    border-radius: 10px;
+    border: 3px solid red;
+}
+.ourcurriculum{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-family: Arial;
+    font-size: 17px;
+    color: #095792;
+}
+.problemsolving{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #095792;
+}
+.focuses{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-family: Arial;
+    font-size: 15px;
+    color:darkslategrey;
+    line-height: 25px;
+}
+.software{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-family: Arial;
+    font-size: 17px;
+    color: #095792;
+}
+.deepening{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-family: Arial;
+    font-size: 15px;
+    color:darkslategrey;
+    line-height: 25px;
+}
+.business{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-family: Arial;
+    font-size: 17px;
+    color: #095792;
+}
+.henleypartner{
+    position: relative;
+    top: -2px;
+    font-size: 12px;
+}
+.pioneer{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-family: Arial;
+    font-size: 15px;
+    color:darkslategrey;
+    line-height: 25px;
+}
+.projectbuild{
+      position: relative;
+    top: 25px;
+    left: 25px;
+    font-family: Arial;
+    font-size: 17px;
+    color: #095792;
+}
+.workforce{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-family: Arial;
+    font-size: 15px;
+    color:darkslategrey;
+    line-height: 25px;
+}
+.internshipss{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-family: Arial;
+    font-size: 17px;
+    color: #095792;
+}
+.reallifeprojects{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-family: Arial;
+    font-size: 15px;
+    color:darkslategrey;
+    line-height: 25px;
+}
