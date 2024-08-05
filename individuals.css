@@ -731,7 +731,7 @@ cursor: pointer;
     font-family: Tahoma;
 cursor: pointer;
 }
-.curriculumbox{
+#curriculumbox{
     position: relative;
     top: -1039px;
     left: 705px;
@@ -839,3 +839,232 @@ cursor: pointer;
     color:darkslategrey;
     line-height: 25px;
 }
+.learnbox{
+    position: relative;
+    top: -839px;
+    left: -10px;
+    width: 1500px;
+    height: 589px;
+    background-color:palegoldenrod;
+    border-radius: 10px;   
+}
+.learnspacebox{
+    position: relative;
+    top: 80px;
+    left: 190px;
+    width: 1100px;
+    height: 412px;
+    background-color:white;
+    border-radius: 10px;
+    border: 3px solid red;
+}
+.learnman{
+    position: relative;
+    top: 38px;
+    left: 630px;
+    
+}
+.learnspace{
+    position: relative;
+    bottom: 48px;
+    right: 440px;
+}
+.learnow{
+    position: relative;
+    bottom: 310px;
+    left: 40px;
+    font-family: Arial;
+    color:mediumseagreen;
+    font-size: 28px; 
+}
+.paylater{
+    position: relative;
+    bottom: 325px;
+    left: 40px;
+    font-family: Arial;
+    font-size: 15px;
+    color:darkslategrey;
+    line-height: 25px;
+}
+.whatalumni{
+    position: relative;
+    bottom: 750px;
+    left: 570px;
+    font-family: Arial;
+    font-size: 30px;
+  color:#0c5186;
+}
+.alumni{
+    color: red;
+}
+.youtube{
+
+}
+.huawei{
+    position: relative;
+    top: 250px;
+    left: 200px;
+  }
+  .interswitch{
+    position: relative;
+    top: 250px;
+    left: 270px;
+  }
+  .branch{
+    position: relative;
+    top: 245px;
+    left: 340px
+  }
+  .cowrywise{
+    position: relative;
+    top: 245px;
+    left: 410px;
+  }
+  .moniepoint{
+    position: relative;
+    top: 245px;
+    left: 480px;
+  }
+  .acrobat{
+    position: relative;
+    top: 250px;
+    left: 550px;
+  }
+  .sterling{
+    position: relative;
+    top: 530px;
+    left: 250px;
+  }
+  .flutterwave{
+    position: relative;
+    top: 370px;
+    right: 635px;
+  }
+  .oldmutual{
+    position: relative;
+    top: 370px;
+    right: 560px;
+  }
+  .egymwell{
+    position: relative;
+    top: 370px;
+    right: 490px;
+  }
+  .kpmg{
+    position: relative;
+    bottom: -270px;
+    left: 1000px;
+  }
+  .ihs{
+    position: relative;
+    bottom: -270px;
+    left: 1070px;
+  }
+  .union{
+    position: relative;
+    bottom: -270px;
+    left: 1150px;
+  }
+  .fcmb{
+     position: relative;
+    top: 450px;
+    left: -200px;
+  }
+  .fsi{
+    position: relative;
+    top: 450px;
+    left: -120px;
+  }
+  .liberty{
+    position: relative;
+    top: 450px;
+    left: -50px;
+  }
+  .uba{
+    position: relative;
+    top: 430px;
+    left: 30px;
+  }
+  .airtel{
+    position: relative;
+    top: 430px;
+    left: 90px;
+  }
+  .united{
+    position: relative;
+    top: 265px;
+    left: -720px;
+  }
+  .eat{
+    position: relative;
+    top: 435px;
+    left: 340px;
+  }
+  .wema{
+    position: relative;
+    top: 435px;
+    left: 420px;
+  }
+  .places{
+    position: relative;
+    bottom: -220px;
+    left: 570px;
+    font-family: Arial;
+    font-size: 30px;
+  color:#0c5186;
+}
+.natives{
+    color: red;
+}
+.frequently{
+    position: relative;
+    top: 500px;
+    left: 570px;
+    font-family: Arial;
+    font-size: 30px;
+  color:#0c5186;
+}
+#radix{
+    position: relative;
+    top: 520px;
+    left: 260px;
+    width: 1000px;
+    height: 60px;
+    background-color:wheat;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid red;
+}
+#radixx{
+    position: relative;
+    top: 450px;
+    left: 260px;
+    width: 1000px;
+    height: 60px;
+    background-color:wheat;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid red;
+}
+#radixxx{
+    position: relative;
+    bottom: 380px;
+    left: 260px;
+    width: 1000px;
+    height: 60px;
+    background-color:wheat;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid red;
+}
+ .radixir{
+     position: relative;
+    top: 450px;
+    left: 260px;
+    width: 1000px;
+    height: 60px;
+    background-color:wheat;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid red;
+ }

@@ -327,7 +327,7 @@ transform: translate(-50%, -50%);
     position: relative;
     bottom: 212px;
     left: 25px;
-    color: #0c5186;
+    color: red;
     font-family: Cambria;
     font-weight: normal;
     margin: 0px;
@@ -473,7 +473,7 @@ transform: translate(-40%, -50%);
 .dot{
   height: 290px;
   width: 290px;
-  background-color: #bbb;
+  background-color: pink;
   border-radius: 50%;
   display: inline-block;
   

@@ -28,4 +28,25 @@ tech.addEventListener('click', () => {
     sum.style.textDecoration = 'none';
     data.style.textDecoration = 'none';
 });
+// const tress = document.getElementById('radix');
 
+// tress.addEventListener('click', () => {
+// tress.innerHTML = "Our techpreneurship training is 100% onsite. However, details for other programs will be communicated upon registration."    
+// });
+
+const datan = document.getElementById('datana');
+const curriculumBox = document.getElementById('curriculumbox');
+
+datan.addEventListener('click', () => {
+  curriculumBox.innerHTML = '';
+
+//   const img = document.createElement('img');
+//   img.src = './dataanalytics.png';
+//   img.alt = 'description';
+
+//   curriculumBox.appendChild(img);
+});
+
+// function summers(){
+//     document.getElementsByClassName('curriculumbox').src = './dataanalytics.png';
+// }
