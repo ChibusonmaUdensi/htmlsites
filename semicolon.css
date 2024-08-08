@@ -550,8 +550,9 @@ transform: translate(-40%, -50%);
   margin-left: 120px;
 }
 .enumlink:hover{
-  transform: translateX(5px, 5px);
-  transition: all 0.5s ease-in-out;
+  border: 0.002px solid dodgerblue;
+  transform: translate(15px, 5px);
+  transition: all 2.5s ease-in-out;
 }
 .global{
   position: relative;
