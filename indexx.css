@@ -1,0 +1,176 @@
+.phoneBook{ 
+    position: relative;
+    top: 00x;
+    width: 1520px;
+    height: 0px;
+
+    background-color:white;
+}
+.peeps{
+    position: relative;
+    left: 0px;
+    width: 1520px;
+    height: 550px;
+}
+.contact{
+    position: relative;
+    top: -5px;
+    left: 250px;
+    color: darkblue;
+}
+.iki{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    bottom: 500px;
+    left: 60px;
+    gap: 100px;
+
+
+    cursor: pointer;
+    color: white;
+}
+.ikigai{
+    position: relative;
+    bottom: 8px; 
+    right: 10px;
+   font-size: 30px;
+    color:bisque ;
+    font-family: cursive;
+
+    cursor: auto;
+}
+
+#mycontactform{
+    position: relative;
+    bottom: -00px;
+    right: 350px;
+    height: 561px;
+       width: 700px;
+        margin: 0 auto;
+        padding: 20px;
+   
+        border-radius: 5px;
+        column-gap: 10px;
+        background-color:bisque;
+  }
+  #typename{
+    width: 700px;
+    height: 35px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: skyblue;
+    position: relative;
+   right: 5px;
+   bottom: 5px;
+  }
+  #typeusername{
+    width: 700px;
+    height: 35px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: skyblue;
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+  }
+  #typesecondname{
+    width: 700px;
+    height: 35px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: skyblue;
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+  }
+#typeemail{
+    width: 700px;
+    height: 35px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: skyblue;
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+}
+#typenumber{
+    width: 700px;
+    height: 35px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: skyblue;
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+}
+#typeid{
+    width: 700px;
+    height: 35px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: skyblue;
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+}
+/* .sig{
+    position: relative;
+  right: 5px;
+  top: 10px;
+  width: 700px;
+  height: 75px;
+  background-color: skyblue;
+  border-radius: 10px ;
+} */
+
+#signupbutton{
+    position: relative;
+    font-family: Tahoma;
+    font-size: large;
+    width: 710px;
+    height: 75px;
+
+    color: white;
+    position: relative;
+    left: -7px;
+    top: 0px;
+    border-radius: 20px;
+    font-weight: bolder;
+    background-color:skyblue;
+    cursor: pointer;
+}
+.holder{
+    display: flex;
+    flex-direction: row;
+}
+
+.contactForm{
+    position: relative;
+   top: 0px;
+    width: 1520px;
+    height: 600px;
+    background-color: bisque;
+}
+.line{
+    height: 400px;
+    width: 2px;
+    background-color: skyblue;
+    position: relative;
+    top: 50px;
+    left: 200px;
+  }
+  #dancingText{
+    position: relative;
+    bottom: 250px;
+    left: 240px;
+    font-family: cursive;
+    color: darkblue;
+    font-size: 30px;
+    white-space: pre-wrap;
+  }
+  .lined{
+    position: relative;
+    bottom: 500px;
+    left: 570px;
+  }
