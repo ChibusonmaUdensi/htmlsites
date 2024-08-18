@@ -88,6 +88,11 @@
     left: 105px;
     bottom: 5px;
   }
+  .homie{
+    position: relative;
+    bottom: 5px;
+
+  }
   #typesecondname{
     width: 300px;
     height: 40px;
