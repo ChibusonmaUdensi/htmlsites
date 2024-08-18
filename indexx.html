@@ -9,11 +9,12 @@
 </head>
 <body>
 
-
-
         <div class="mycontactform">
             <div class="holdpeeps">
-            <img class="peeps" src="./pexels-cottonbro-5998697.jpg">
+                <div class="peeps-div">
+
+                    <img class="peeps" src="./pexels-cottonbro-5998697.jpg">
+                </div>
             <div class="phoneBook"></div>
             <div class="iki">
                 <h1 class="ikigai"> IKIGAI</h1>
@@ -29,24 +30,28 @@
             <form id="mycontactform">
                 <h1 class="contact"> Add Contact</h1>
         
-                <input id="typename" type="FirstName" name="FirstName" placeholder="First Name"> <br>
-                <input id="typesecondname" type="SecondName" name="SecondName" placeholder="Second Name"> <br>
+                <input id="typename" type="FirstName" name="FirstName" placeholder="First Name" required> <br>
+                <input id="typesecondname" type="SecondName" name="SecondName" placeholder="Last Name" required> <br>
+                <input id="typeaddress" type="address" name="Address" placeholder="Address" required> <br>
+       
+                   <input id="typenumber" type="PhoneNumber" name="PhoneNumber" placeholder="Phone Number" required > <br>
         
-                   <input id="typenumber" type="PhoneNumber" name="PhoneNumber" placeholder="Phone Number"> <br>
+        <input id="typeemail" type="Email" name="Email" placeholder="Email" required><br>
         
-        <input id="typeemail" type="Email" name="Email" placeholder="Email"><br>
-        <input id="typeid" type="Id" name=" PhoneBook Id" placeholder="PhoneBook Id"> <br>
-         
         <div class="sig">
-            <button id="signupbutton" type="button" onclick="submitForm()">Submit</button>
+            <button type="button" id="signupbutton">Submit</button> 
         </div>
             </form>
-        <div class="lined">
         <div class="line"></div>
-        <h1 id="dancingText"> </h1>
+        <div class="dancingTextDiv">
+
+            <h1 id="dancingText"> </h1>
+        </div>
        </div>
-       </div>
+   
     
-    <script src="indexx.js"></script>
+    <script src="indexx.js">
+        
+    </script>
 </body>
 </html>

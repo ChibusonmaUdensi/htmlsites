@@ -1,9 +1,8 @@
 .phoneBook{ 
     position: relative;
-    top: 00x;
-    width: 1520px;
+    top: 0px;
+    width: 100%;
     height: 0px;
-
     background-color:white;
 }
 .peeps{
@@ -14,21 +13,25 @@
 }
 .contact{
     position: relative;
-    top: -5px;
-    left: 250px;
-    color: darkblue;
+    top: 5px;
+    left: 220px;
+    color: black;
 }
 .iki{
-    position: relative;
+    position: absolute;
+    top: 40px;
+    left: 80px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     bottom: 500px;
     left: 60px;
     gap: 100px;
-
-
     cursor: pointer;
     color: white;
+}
+.iki h2{
+   font-size: 18px;
 }
 .ikigai{
     position: relative;
@@ -43,75 +46,86 @@
 
 #mycontactform{
     position: relative;
-    bottom: -00px;
+    bottom: -40px;
     right: 350px;
     height: 561px;
        width: 700px;
         margin: 0 auto;
-        padding: 20px;
+        /* padding: 20px; */
    
         border-radius: 5px;
         column-gap: 10px;
         background-color:bisque;
   }
   #typename{
-    width: 700px;
-    height: 35px;
+    width: 300px;
+    height: 40px;
     margin-bottom: 25px;
     border-radius: 10px;
-    background-color: skyblue;
+    background-color: white;
     position: relative;
-   right: 5px;
+   right: -165px;
    bottom: 5px;
   }
+  .holdpeeps{
+    width: 100%;
+    position: relative;
+  }
+  .peeps-div{
+    width: 100%;
+    height: 400px;
+  }
+  .peeps-div img{
+    object-fit: cover;
+  }
   #typeusername{
-    width: 700px;
-    height: 35px;
+    width: 300px;
+    height: 40px;
     margin-bottom: 25px;
     border-radius: 10px;
-    background-color: skyblue;
+    background-color: white;
     position: relative;
-    right: 5px;
+    left: 105px;
     bottom: 5px;
   }
   #typesecondname{
-    width: 700px;
-    height: 35px;
+    width: 300px;
+    height: 40px;
     margin-bottom: 25px;
     border-radius: 10px;
-    background-color: skyblue;
+    background-color: white;
     position: relative;
-    right: 5px;
+    right: -165px;
     bottom: 5px;
   }
 #typeemail{
-    width: 700px;
-    height: 35px;
+    width: 300px;
+    height: 40px;
     margin-bottom: 25px;
     border-radius: 10px;
-    background-color: skyblue;
+    background-color: white;
     position: relative;
-    right: 5px;
+    right: -165px;
     bottom: 5px;
 }
 #typenumber{
-    width: 700px;
-    height: 35px;
+    width: 300px;
+    height: 40px;
     margin-bottom: 25px;
     border-radius: 10px;
-    background-color: skyblue;
+    background-color: white;
     position: relative;
-    right: 5px;
+    right: -165px;
     bottom: 5px;
 }
-#typeid{
-    width: 700px;
-    height: 35px;
+#typeaddress{
+    width: 300px;
+    height: 40px;
     margin-bottom: 25px;
     border-radius: 10px;
-    background-color: skyblue;
+    background-color: white;
     position: relative;
-    right: 5px;
+    right: -165px;
     bottom: 5px;
 }
 /* .sig{
@@ -128,16 +142,16 @@
     position: relative;
     font-family: Tahoma;
     font-size: large;
-    width: 710px;
-    height: 75px;
+    width: 160px;
+    height: 40px;
 
-    color: white;
+    color: black;
     position: relative;
-    left: -7px;
+    right: -245px;
     top: 0px;
     border-radius: 20px;
     font-weight: bolder;
-    background-color:skyblue;
+    background-color:white;
     cursor: pointer;
 }
 .holder{
@@ -157,20 +171,18 @@
     width: 2px;
     background-color: skyblue;
     position: relative;
-    top: 50px;
-    left: 200px;
+    top: -500px;
+    left: 730px;
+  }
+  .dancingTextDiv{
+    max-width: 600px;
+  
+    
   }
   #dancingText{
-    position: relative;
-    bottom: 250px;
-    left: 240px;
-    font-family: cursive;
-    color: darkblue;
-    font-size: 30px;
-    white-space: pre-wrap;
-  }
-  .lined{
-    position: relative;
-    bottom: 500px;
-    left: 570px;
+   width: full;
+  position: relative;
+  bottom: 800px;
+  left: 760px;
+  color: black;
   }
